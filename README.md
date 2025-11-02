@@ -53,6 +53,7 @@ O `tkinter` (Tcl/Tk) geralmente já vem instalado com o Python. No entanto, em a
 **Execute o seguinte comando no seu terminal para instalar o suporte ao Tk:**
 ```bash
 brew install python-tk@3.13
+```
 
 ### Passos para Execução
 
