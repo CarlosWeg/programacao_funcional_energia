@@ -60,7 +60,7 @@ brew install python-tk@3.13
 1. **Clone o repositório**:
 ```bash
 git clone https://github.com/CarlosWeg/programacao_funcional_energia.git
-cd faturamento-energia
+cd programacao_funcional_energia
 ```
 
 2. **Execute o programa**:
