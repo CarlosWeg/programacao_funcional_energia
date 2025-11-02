@@ -41,7 +41,18 @@ Este sistema calcula o valor da fatura de energia elétrica considerando:
 ### Pré-requisitos
 
 - Python 3.7 ou superior
-- Tkinter (geralmente já vem com Python)
+- `tkinter` para a interface gráfica
+
+### ⚠️ Atenção: Requisito para macOS
+
+O `tkinter` (Tcl/Tk) geralmente já vem instalado com o Python. No entanto, em algumas instalações do **macOS** (especialmente as feitas via Homebrew), esse pacote gráfico não é incluído por padrão.
+
+**Se você estiver no macOS e receber o erro:**
+`ModuleNotFoundError: No module named '_tkinter'`
+
+**Execute o seguinte comando no seu terminal para instalar o suporte ao Tk:**
+```bash
+brew install python-tk@3.13
 
 ### Passos para Execução
 
@@ -421,4 +432,4 @@ reduce(lambda acc, x: acc + x, [1, 2, 3], 0)  # 6
 
 ### Sobre o Código
 
-Este projeto foi desenvolvido com foco em **conceitos de programação funcional** para fins educacionais. O código prioriza:
+Este projeto foi desenvolvido com foco em **conceitos de programação funcional** para fins educacionais.
