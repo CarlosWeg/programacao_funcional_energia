@@ -41,7 +41,7 @@ Este sistema calcula o valor da fatura de energia elétrica considerando:
 ### Pré-requisitos
 
 - Python 3.7 ou superior
-- `tkinter` para a interface gráfica
+- `tkinter` para a interface gráfica (geralmente já vem com Python)
 
 ⚠️ Atenção: Requisito para macOS
 
