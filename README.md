@@ -38,27 +38,36 @@ Este sistema calcula o valor da fatura de energia elétrica considerando:
 
 ## 🚀 Como Executar
 
-### Pré-requisitos
+## Pré-requisitos
+* Python 3.7 ou superior
+* `tkinter` para a interface gráfica (geralmente já vem com Python)
 
-- Python 3.7 ou superior
-- `tkinter` para a interface gráfica (geralmente já vem com Python)
-
-⚠️ Atenção: Requisito para macOS
+### ⚠️ Atenção: Requisito para macOS
 
 O `tkinter` (Tcl/Tk) geralmente já vem instalado com o Python. No entanto, 
-em algumas instalações, como por exemplo do macOS, 
-esse pacote gráfico não é incluído por padrão.
+em algumas instalações, como a do macOS (especialmente via Homebrew), esse pacote 
+gráfico não é incluído por padrão.
 
-Se você receber o erro: `ModuleNotFoundError: No module named '_tkinter'`
-
-Execute no terminal (substitua X.XX pela sua versão do Python):
-```bash
-brew install python-tk@X.XX
+**Se você receber este erro ao executar o programa:**
+```
+ModuleNotFoundError: No module named '_tkinter'
 ```
 
-Ou tente o comando genérico:
+**Solução:**
+
+1. Primeiro, descubra sua versão do Python:
 ```bash
-brew install python-tk
+   python3 --version
+```
+
+2. Instale o python-tk correspondente (substitua X.XX pela sua versão):
+```bash
+   brew install python-tk@X.XX
+```
+   
+   Ou tente o comando genérico:
+```bash
+   brew install python-tk
 ```
 
 ### Passos para Execução
