@@ -71,7 +71,7 @@ ModuleNotFoundError: No module named '_tkinter'
 ```
 
 **Consulte mais detalhes na página oficial do Homebrew:**
-- [Homebrew Formula: python-tk](https://formulae.brew.sh/formula/python-tk)
+- [Homebrew Formula: python-tk](https://formulae.brew.sh/formula/python-tk@3.14#default)
 
 ### Passos para Execução
 
