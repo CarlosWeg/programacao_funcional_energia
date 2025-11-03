@@ -70,6 +70,9 @@ ModuleNotFoundError: No module named '_tkinter'
    brew install python-tk
 ```
 
+**Consulte mais detalhes na página oficial do Homebrew:**
+- [Homebrew Formula: python-tk](https://formulae.brew.sh/formula/python-tk)
+
 ### Passos para Execução
 
 1. **Clone o repositório**:
